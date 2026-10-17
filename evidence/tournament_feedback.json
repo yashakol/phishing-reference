@@ -1,0 +1,10 @@
+{
+  "version": "submission_reference",
+  "submission": "submission_reference.csv",
+  "submission_sha256": "8c2b05c3cf1fbd28218f00b0796ca3fa078a3def1d6df1201ddcc2557449d6d9",
+  "reported_public_f1": 1.0,
+  "source": "Screenshot supplied by the participant in this conversation: submission_reference.csv, Public score 1.000000",
+  "independent_leaderboard_query": false,
+  "private_f1": null,
+  "note": "All 16000 test rows match public labels. This score is not an independent evaluation on previously unknown URLs. Historical audit was written before participant feedback."
+}

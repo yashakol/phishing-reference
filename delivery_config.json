@@ -1,0 +1,18 @@
+{
+  "variant": "reference",
+  "expected_file": "expected/submission_reference.csv",
+  "expected_csv_sha256": "8c2b05c3cf1fbd28218f00b0796ca3fa078a3def1d6df1201ddcc2557449d6d9",
+  "fallback_parameters": {
+    "representation": "rich",
+    "c": 16.0,
+    "nb": false,
+    "text_weight": 0.5,
+    "boost_iterations": 1000,
+    "boost_depth": 7,
+    "boost_learning_rate": 0.055,
+    "boost_l2_leaf_reg": 5,
+    "seed": 2026,
+    "threads": 2,
+    "threshold": 0.46179200561317213
+  }
+}

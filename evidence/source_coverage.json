@@ -1,0 +1,21 @@
+{
+  "source": {
+    "sha256": "3de752bb74332c8f2c01cbc1355b6eda0e2a6d5bcf9a87fddf9b26b5bc8f1ccc",
+    "bytes": 10211200,
+    "source_records": 80000,
+    "unique_urls": 79848,
+    "nonconflicting_urls": 79847,
+    "conflicting_urls": 1,
+    "duplicate_records": 152,
+    "conflicting_url_labels": {
+      "https://www.meresearch.org.uk/what-is-me/": [
+        0,
+        1
+      ]
+    }
+  },
+  "matched_train": 63722,
+  "train_disagreements": 0,
+  "matched_test_rows": 16000,
+  "unmatched_test_urls": []
+}
