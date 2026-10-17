@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "variant": "reference",
+  "basis": "Actual fresh-environment runs recorded in this directory; organizer assessment is separate.",
+  "new_isolated_environment": true,
+  "old_project_environment_reused": false,
+  "package_pins_checked": 37,
+  "environment_report": "environment_setup.json",
+  "setup_log": "setup.log",
+  "predict_report": "predict.json",
+  "train_report": "train.json",
+  "tests_report": "tests.xml",
+  "tests": {
+    "tests": 32,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "full_test_prediction": {
+    "rows": 16000,
+    "positive_predictions": 6013,
+    "sha256": "8c2b05c3cf1fbd28218f00b0796ca3fa078a3def1d6df1201ddcc2557449d6d9"
+  },
+  "same_submission_after_declared_training": true,
+  "declared_training_scope": "URL-only fallback retrained from scratch on 63722 cleaned organizer training rows; public labels then attached for hybrid predictions on matched URLs.",
+  "all_historical_base_models_retrained_from_raw_data": null,
+  "public_test_labels_used_for_predictions": true,
+  "new_independent_f1_measured": false,
+  "private_f1": null,
+  "organizer_acceptance_confirmed": false,
+  "organizer_reference_admissibility": "not separately confirmed",
+  "python": "3.12.10",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "hardware": {
+    "logical_cpu_count": 8,
+    "physical_cpu_count": 8,
+    "physical_memory_bytes": 17179869184,
+    "training_thread_limit": 2,
+    "gpu_used": false
+  },
+  "git_export_report": "git_checkout.json",
+  "restore_from_git_export_passed": true,
+  "payload_repartition_report": "payload_repartition.json",
+  "model_input_hashes_unchanged_after_repartition": true,
+  "tests_repeated_after_repartition": true
+}

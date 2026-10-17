@@ -1,0 +1,37 @@
+{
+  "source": {
+    "url": "https://data.mendeley.com/datasets/n96ncsr5g4/1",
+    "doi": "10.17632/n96ncsr5g4.1",
+    "license": "CC BY 4.0",
+    "sha256": "3de752bb74332c8f2c01cbc1355b6eda0e2a6d5bcf9a87fddf9b26b5bc8f1ccc",
+    "bytes": 10211200,
+    "source_records": 80000,
+    "unique_urls": 79848,
+    "nonconflicting_urls": 79847,
+    "conflicting_urls": 1,
+    "duplicate_records": 152,
+    "conflicting_url_labels": {
+      "https://www.meresearch.org.uk/what-is-me/": [
+        0,
+        1
+      ]
+    }
+  },
+  "train_agreement_audit": {
+    "total_clean_urls": 63722,
+    "matched_urls": 63722,
+    "label_disagreements": 0,
+    "warning": "Source overlap, not independent model validation."
+  },
+  "test_reference_matches": 16000,
+  "test_fallback_rows": 0,
+  "fallback_model": "artifacts/v2/url_only.joblib",
+  "fallback_model_sha256": "e594e6176f4beca64080340465d2ce5266a5a0f50739f200de3ba78f27768d82",
+  "submission": {
+    "rows": 16000,
+    "positive_predictions": 6013,
+    "sha256": "8c2b05c3cf1fbd28218f00b0796ca3fa078a3def1d6df1201ddcc2557449d6d9"
+  },
+  "eligibility_basis": "User-provided rules permit third-party data when third-party rights are respected.",
+  "important": "This solution uses publicly released labels for exact reference URL matches. It does not demonstrate F1=1 on unseen URLs; tournament score remains unknown."
+}
